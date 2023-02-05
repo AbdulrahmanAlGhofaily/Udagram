@@ -58,6 +58,7 @@ jobs:
           node-version: '14.15'
       - eb/setup
       - aws-cli/setup
+      - checkout
       - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
@@ -68,7 +69,6 @@ jobs:
             npm run frontend:build
             npm run api:build
             npm run deploy
-      - checkout
 
 workflows:
   udagram:
