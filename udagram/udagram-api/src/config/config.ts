@@ -12,7 +12,6 @@ export const config = {
   POSTGRES_DB: process.env.POSTGRES_DB,
   POSTGRES_HOST: process.env.POSTGRES_HOST,
   AWS_REGION: process.env.AWS_REGION,
-  AWS_DEFAULT_REGION: process.env.AWS_DEFAULT_REGION,
   AWS_PROFILE: process.env.AWS_PROFILE,
   AWS_BUCKET: process.env.AWS_BUCKET,
   URL: process.env.URL,
