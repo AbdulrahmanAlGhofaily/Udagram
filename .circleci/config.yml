@@ -68,7 +68,6 @@ jobs:
             npm run api:install
             npm run frontend:build
             npm run api:build
-            npm run set-env
             npm run deploy
 
 workflows:
